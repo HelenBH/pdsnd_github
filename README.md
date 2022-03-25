@@ -1,4 +1,4 @@
-# Bikeshare Python Project
+# Explore US Bikeshare Data - Python Project
 
 ### Created 25/03/2022
 
@@ -23,6 +23,8 @@ N/A
 
 ### Credits
 Developed as part of Udacity's Programming for Data Science Nano Degree
+Code written by Helen Beaumont-Hill
+Original Bikeshare data provided by Motivate (https://www.motivateco.com)
 
 ### Known bugs
 None
