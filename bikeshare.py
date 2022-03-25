@@ -170,6 +170,7 @@ def user_stats(df):
     # Display counts of gender
     # Display earliest, most recent, and most common year of birth
     # Handle Washington, which does not have Gender or Birth Year data
+    # Only need to check if Gender exists, as either both columns are available or neither
     if 'Gender' not in df.columns:
         print('Sorry, no gender or date of birth data is available')
     else:
