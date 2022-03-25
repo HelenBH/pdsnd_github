@@ -4,6 +4,8 @@
 
 ### Description
 Python code with a user interface. Presents statistics about Bikeshare Data in one/all of 3 cities, with the option to filter on month an day of week, and to display data records.
+Data is from first 6 months of 2017.
+Statistics relate to popular times of travel, popular stations and trip, trip duration.
 
 ### Software and Hardware
 Ability to run python code is required.
