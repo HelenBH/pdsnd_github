@@ -188,7 +188,11 @@ def user_stats(df):
 
     
 def display_raw_data(df):
-    """Displays 5 rows of raw data upon request."""    
+    """
+    Displays 5 rows of raw data upon request.
+
+    Continues to show 5 rows at a time until user exits.
+    """    
     row = 0
     while True:
         viewData = input("Would you like to see 5 rows of raw data? Type 'Yes' or 'No'.").lower()
