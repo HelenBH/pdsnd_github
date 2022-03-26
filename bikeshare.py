@@ -23,7 +23,7 @@ def get_filters():
         if city in CITY_DATA:
             break
         else:
-            print('That\'s not in the list! Try again please')
+            print('That\'s not in the list! Type either Chicago, New York City or Washington please!')
 
     # Get user input for month (all, january, february, ... , june)
     while True:
@@ -32,7 +32,7 @@ def get_filters():
         if month in months or month == 'all':
             break
         else:
-            print('That\'s not a valid input! Try again please')
+            print('That\'s not in the list! Try again please')
 
     # Get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
@@ -151,7 +151,6 @@ def trip_duration_stats(df):
     mean_travel_time = df['Trip Duration'].mean()
     print('Mean travel time in seconds: ', mean_travel_time)
     print('Mean travel time in minutes: ', mean_travel_time/60)
-    print('Mean travel time in hours: ', mean_travel_time/3600)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
