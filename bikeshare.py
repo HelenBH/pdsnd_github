@@ -23,7 +23,7 @@ def get_filters():
         if city in CITY_DATA:
             break
         else:
-            print('That\'s not in the list! Try again please')
+            print('That\'s not in the list! Type either Chicago, New York City or Washington please!')
 
     # Get user input for month (all, january, february, ... , june)
     while True:
